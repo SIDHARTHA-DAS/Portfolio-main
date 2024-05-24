@@ -124,6 +124,7 @@ body.dark-theme {
 
 .dark-theme .nav,
 .dark-theme .nav__menu,
+.dark-theme .downloade-btn,
 .dark-theme .scrollup{
   background-color: var(--container-color);
   box-shadow: 0 4px 20px hsla(207, 24%, 8%, .4);
@@ -206,6 +207,17 @@ body.dark-theme {
   bottom: 2rem;
   left: 0;
   z-index: var(--z-fixed);
+}
+
+.downloade-btn{
+  color: var(--text-color-light);
+  background-color: var(--body-color);
+}
+
+
+.downloade-btn i{
+   top: 1.25rem;
+   font-size: 1.25rem;
 }
 
 .nav{
