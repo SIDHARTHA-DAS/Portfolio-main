@@ -290,6 +290,8 @@ body.dark-theme {
 
 .nav__link:hover{
   color: var(--title-color);
+  transition: transform .3s;
+  transform: translateY(-.15rem);
 }
 
 .nav__link i{
