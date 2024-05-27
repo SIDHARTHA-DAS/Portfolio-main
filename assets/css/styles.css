@@ -220,6 +220,15 @@ body.dark-theme {
    font-size: 1.25rem;
 }
 
+.downloade-btn:hover{
+  transition: transform .3s;
+  transform: translateY(-.15rem);
+}
+
+.downloade-btn:hover{
+  color: var(--title-color);
+}
+
 .nav{
   height: calc(var(--header-height) + .5rem);
   display: flex;
@@ -388,6 +397,8 @@ body.dark-theme {
 
 .home__social-link:hover{
   color: var(--title-color);
+  transition: transform .3s;
+  transform: translateY(-.15rem);
 }
 
 .home__info{
