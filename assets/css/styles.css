@@ -222,8 +222,12 @@ body.dark-theme {
 
 .downloade-btn:hover{
   color: var(--title-color);
-  transition: transform .3s;
-  transform: translateY(-.15rem);
+  /* transition: transform .3s;
+  transform: translateY(-.15rem); */
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.3);
+  z-index: 2;
 }
 
 
@@ -290,6 +294,10 @@ body.dark-theme {
 
 .nav__link:hover{
   color: var(--title-color);
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.3);
+  z-index: 2;
 }
 
 .nav__link i{
