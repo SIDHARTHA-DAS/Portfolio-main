@@ -1188,6 +1188,7 @@ body.dark-theme {
   }
 
   .dark-theme .nav,
+  .dark-theme .downloade-btn, 
   .dark-theme .nav__menu{
     background-color: var(--body-color);
     box-shadow:none ;
