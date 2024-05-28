@@ -292,6 +292,11 @@ body.dark-theme {
   color: var(--title-color);
 }
 
+.nav__link:hover{
+  transition: transform .3s;
+  transform: translateY(-.15rem);
+}
+
 .nav__link i{
   font-size: 1.25rem;
 }
