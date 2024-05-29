@@ -403,8 +403,12 @@ body.dark-theme {
 
 .home__social-link:hover{
   color: var(--title-color);
-  transition: transform .3s;
-  transform: translateY(-.15rem);
+  /* transition: transform .3s;
+  transform: translateY(-.15rem); */
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.3);
+  z-index: 2;
 }
 
 .home__info{
@@ -998,7 +1002,11 @@ body.dark-theme {
 }
 
 .footer__social-link:hover{
-  transform: translateY(-.15rem);
+  /* transform: translateY(-.15rem); */
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.3);
+  z-index: 2;
 }
 .footer__copy{
   display: block;
