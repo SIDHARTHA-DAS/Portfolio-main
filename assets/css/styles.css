@@ -713,12 +713,12 @@ body.dark-theme {
 
 .projects__container .swiper-button-prev{
   left: -1rem;
-  top: 4.5rem;
+  top: 3.5rem;
 }
 
 .projects__container .swiper-button-next{
   right: -1rem;
-  top: 4.5rem;
+  top: 3.5rem;
 }
 
 .projects__container .swiper-slide{
@@ -1112,9 +1112,11 @@ body.dark-theme {
 
   .projects__container .swiper-button-prev{
     left: 1rem;
+    top: 2.5rem;
   }
   .projects__container .swiper-button-next{
     right: 1rem;
+    top: 2.5rem;
   }
 }
 
