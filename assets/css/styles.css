@@ -711,6 +711,11 @@ body.dark-theme {
   color: var(--title-color);
 }
 
+.projects__container .swiper-button-prev,
+.projects__container .swiper-button-next:hover{
+  cursor: pointer;
+}
+
 .projects__container .swiper-button-prev{
   left: -1rem;
   top: 3.5rem;
