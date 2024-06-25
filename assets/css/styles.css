@@ -212,6 +212,7 @@ body.dark-theme {
 .downloade-btn{
   color: var(--text-color-light);
   background-color: var(--body-color);
+  transition: background .4s;
   /* box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1); */
 }
 
