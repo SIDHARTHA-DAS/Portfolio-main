@@ -127,7 +127,7 @@ body.dark-theme {
 .dark-theme .downloade-btn,
 .dark-theme .scrollup{
   background-color: var(--container-color);
-  box-shadow: 0 4px 20px hsla(208, 26%, 50%, 0.26);
+  box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.26);
 }
 
 .dark-theme .home__shape-wawes,
