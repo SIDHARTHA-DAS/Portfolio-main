@@ -1104,6 +1104,12 @@ body.dark-theme {
     margin: 0 auto;
   }
 
+  .change-theme:hover{
+    color: var(--text-color);
+    transform: rotate(360deg);
+    transition: 0.9s;
+  }
+
   .skills__container{
     justify-content: center;
   }
@@ -1148,6 +1154,12 @@ body.dark-theme {
 
  .home__info-description{
   padding-right: 0;
+ }
+
+ .change-theme:hover{
+  color: var(--text-color);
+  transform: rotate(360deg);
+  transition: 0.9s;
  }
 
   .skills__container,
@@ -1238,6 +1250,8 @@ body.dark-theme {
 
   .change-theme:hover{
     color: var(--text-color);
+    transform: rotate(360deg);
+    transition: 0.9s;
   }
 
   .section{

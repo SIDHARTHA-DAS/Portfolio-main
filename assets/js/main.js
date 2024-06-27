@@ -182,13 +182,13 @@ const scrollHeader = () =>{
 const sr = ScrollReveal({
   origin: 'top',
   distance:'60px',
-  duration: 2500,
-  delay:400,
+  duration: 1500,
+  delay:100,
   //reset: true /**Animations repeat */
 })
 
 sr.reveal(`.home__data, .projects__container, .testimonial__container, .footer__container`)
-sr.reveal(`.home__info div`, {delay: 600, origin: 'bottom', interval: 100})
+sr.reveal(`.home__info div`, {delay: 200, origin: 'bottom', interval: 100})
 sr.reveal(`.skills__content:nth-child(1), .contact__content:nth-child(1)`, { origin: 'left'})
 sr.reveal(`.skills__content:nth-child(2), .contact__content:nth-child(2)`, { origin: 'right'})
 sr.reveal(`.qualification__content, .achivments__card `, { interval:100})
