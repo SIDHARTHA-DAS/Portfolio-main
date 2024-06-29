@@ -223,8 +223,6 @@ body.dark-theme {
 
 .downloade-btn:hover{
   color: var(--title-color);
-  /* transition: transform .3s;
-  transform: translateY(-.15rem); */
   cursor: pointer;
   transition: 0.5s;
   transform: scale(1.3);
@@ -1107,7 +1105,7 @@ body.dark-theme {
   .change-theme:hover{
     color: var(--text-color);
     transform: rotate(360deg);
-    transition: 0.9s;
+    transition: 1.3s;
   }
 
   .skills__container{
@@ -1159,7 +1157,7 @@ body.dark-theme {
  .change-theme:hover{
   color: var(--text-color);
   transform: rotate(360deg);
-  transition: 0.9s;
+  transition: 1.3s;
  }
 
   .skills__container,
@@ -1236,6 +1234,14 @@ body.dark-theme {
     font-size: var(--normal-font-size);
   }
 
+  .downloade-btn:hover{
+    color: var(--title-color);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.3);
+    z-index: 2;
+  }
+
   .dark-theme .nav,
   .dark-theme .downloade-btn, 
   .dark-theme .nav__menu{
@@ -1251,7 +1257,7 @@ body.dark-theme {
   .change-theme:hover{
     color: var(--text-color);
     transform: rotate(360deg);
-    transition: 0.9s;
+    transition: 1.3s;
   }
 
   .section{
@@ -1287,6 +1293,14 @@ body.dark-theme {
   .container{
     margin-inline: auto;
   }
+
+  .downloade-btn:hover{
+    color: var(--title-color);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.3);
+    z-index: 2;
+  }
 }
 
 @media screen and (min-width:1200px){
@@ -1296,6 +1310,15 @@ body.dark-theme {
 
   .section__subtitle{
     margin-bottom: 5rem;
+  }
+
+
+  .downloade-btn:hover{
+    color: var(--title-color);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.3);
+    z-index: 2;
   }
 
   .home__title{
