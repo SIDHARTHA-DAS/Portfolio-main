@@ -126,7 +126,8 @@ body.dark-theme {
 .dark-theme .nav__menu,
 .dark-theme .downloade-btn,
 .dark-theme .scrollup{
-  background-color: var(--container-color);
+  /* background-color: var(--container-color); */
+  background-color: black;
   box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.26);
 }
 
@@ -236,7 +237,7 @@ body.dark-theme {
   justify-content: space-between;
   align-items: center;
   background-color: var(--body-color);
-  box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
+  box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.1);
   padding-inline: 1.5rem;
   border-radius: 3rem;
   transition: background .4s; /* for dark mode animation */
@@ -268,7 +269,7 @@ body.dark-theme {
     bottom: -60%;
     margin: 0 auto;
     background-color: var(--body-color);
-    box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
+    box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.1);
     padding: 2rem 1.5rem 5rem;
     border-radius: 2rem;
     transition: bottom .5s;
