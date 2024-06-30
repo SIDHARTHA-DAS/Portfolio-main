@@ -1106,7 +1106,7 @@ body.dark-theme {
   .change-theme:hover{
     color: var(--text-color);
     transform: rotate(360deg);
-    transition: 1.3s;
+    transition: 1.3s ease-in-out;
   }
 
   .skills__container{
@@ -1158,7 +1158,7 @@ body.dark-theme {
  .change-theme:hover{
   color: var(--text-color);
   transform: rotate(360deg);
-  transition: 1.3s;
+  transition: 1.3s ease-in-out;
  }
 
   .skills__container,
@@ -1258,7 +1258,7 @@ body.dark-theme {
   .change-theme:hover{
     color: var(--text-color);
     transform: rotate(360deg);
-    transition: 1.3s;
+    transition: 1.3s ease-in-out;
   }
 
   .section{
